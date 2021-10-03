@@ -144,6 +144,12 @@ body {
     /* height: 30em; */
 }
 
+.bg-img2 {
+    border: violet 1px solid;
+    padding: 50px;
+    background-image: url(../assets/bg1.jpg);
+}
+
 /*about me*/
 
 #about-me {
