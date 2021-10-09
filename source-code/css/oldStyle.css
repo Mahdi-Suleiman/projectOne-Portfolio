@@ -4,15 +4,9 @@
 * {
     box-sizing: border-box;
     transition: all 0.3s ease-in-out 0s;
+    margin: 0;
+    padding: 0;
     /* filter: drop-shadow(0px 5px 10px #4A4E69); */
-}
-
-h1, h2, h3 {
-    /* font-family: 'Birthstone', cursive; */
-}
-
-p {
-    /* font-family: 'Arimo', sans-serif; */
 }
 
 html {
@@ -20,92 +14,9 @@ html {
     font-family: 'Arimo', sans-serif;
 }
 
-body {
-    padding: 0;
-    margin: 0;
-}
-
 /* nav bar */
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #22223B;
-    color: #fff;
-    filter: drop-shadow(0px 5px 10px #4A4E69);
-    position: relative;
-}
-
-.logo {
-    align-content: center;
-    font-size: 1.5em;
-    margin: 0.5em;
-    margin-left: 1em;
-    border: 2px solid brown;
-    border-radius: 12px;
-    border-block-start: none;
-    filter: drop-shadow(0px 5px 5px #4A4E69);
-}
-
-.logo p {
-    display: inline;
-    margin: 0;
-    padding: 0;
-    font-family: 'Bonheur Royale', cursive;
-    font-weight: 600;
-    filter: drop-shadow(0px 5px 5px #4A4E69);
-}
-
-.burger-menu {
-    align-content: center;
-    margin: 0.5em;
-    margin-right: 1.1em;
-    padding: 0;
-    display: inline-block;
-    align-content: flex-end;
-    align-items: flex-end;
-}
-
-.burger-menu a {
-    padding: 0s;
-    margin: 0;
-    text-decoration: none;
-}
-
-.burger-menu i {
-    padding: 0;
-    margin: 0;
-    color: white;
-    font-size: 1.5em;
-}
-
-.normal-navbar {
-    height: 100%;
-    display: none;
-}
-
-.normal-navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.normal-navbar ul li {
-    filter: drop-shadow(0px 5px 10px #4A4E69);
-}
-
-.normal-navbar ul li a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 1.1em;
-    height: 100%;
-}
-
-.normal-navbar ul li a:hover {
-    background-color: #4A4E69;
-}
+.normal-menu {}
 
 /*  background images */
 
@@ -525,6 +436,17 @@ footer hr {
     /* transform: ; */
     transition: all 0.5s ease-in-out 0s;
     filter: initial;
+}
+
+.footer-logo-container>a:first-child {
+    border-radius: 10px;
+}
+
+i.fa-brands {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
 }
 
 @media all and (min-width: 481x) and (max-width: 768px) {
