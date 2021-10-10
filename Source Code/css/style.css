@@ -379,6 +379,11 @@ section {
     margin: 1em 0;
 }
 
+.testimonial-card img {
+    width: 100%;
+    height: 100%;
+}
+
 .testimonial-card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
@@ -584,6 +589,10 @@ footer hr {
         width: 40%;
         /* padding: 10 0; */
     }
+    .card:hover {
+        transform: scale(1.1);
+        filter: brightness(120%);
+    }
     #vertical-border {
         border-right: solid 2px grey;
         min-height: 120%;
@@ -596,17 +605,9 @@ footer hr {
         /* border-left: grey 1px solid; */
     }
     /* skills */
-    #skills {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
     .skills-container {
         display: flex;
         justify-content: space-around;
-        flex-direction: row;
-        flex-wrap: wrap;
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         padding: 4rem;
@@ -616,6 +617,19 @@ footer hr {
     }
     .skills-container p {
         /* width: 80%; */
+    }
+    .testimonial-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .testimonial-card {
+        width: 20%;
+    }
+    .testimonial-card:hover {
+        transform: scale(1.1);
+        filter: brightness(80%);
     }
     /*contact me*/
     .col-25 {
