@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Mahdi Suleiman" content="Portfolio">
     <meta name="web development" content="HTML5 CSS3">
+    <!-- <meta name="color-scheme" content="dark light"> -->
+    <meta name="author" content="Mahdi Suleiman">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
@@ -32,6 +34,7 @@
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">Testimonials</a></li>
                     <li><a href="#">Contact Me</a></li>
+                    <li><button class="darkModeBtn" onclick="toggleDark()">Dark Mode</button></li>
                 </ul>
             </div>
         </nav>
@@ -48,7 +51,7 @@
         </a>
     </section>
     <!--About me-->
-    <section id="about-me">
+    <section id="about-me" class="bg-img">
         <header>
             <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGR5HZsHOCXWg/profile-displayphoto-shrink_800_800/0/1631326033565?e=1639008000&v=beta&t=mS6WK34YGZalJbayrrJ0AF7aRlJF3Az3wUUG1jgaHSc"
                 alt="Image of Mahdi Suleiman">
@@ -60,6 +63,9 @@
                 HTML5, CSS3, JavaScript, WordPress, React, Database Managment, PHP and
                 Laravel.</p>
         </article>
+        <a href="#" class="next-section"><abbr title="Next Section"><i class="fa-solid fa-arrow-down"></i>
+            </abbr>
+        </a>
     </section>
     <!--Services-->
     <section id="services" class="bg-img bg-img2">
@@ -68,20 +74,20 @@
                 Services
             </h2>
         </header>
-        <article class="service-card-container">
-            <div class="service-card">
+        <article class="card-container">
+            <div class="card">
                 <i class="fa-brands fa-react"></i>
                 <h3>Front-end Development</h3>
             </div>
-            <div class="service-card">
+            <div class="card">
                 <i class="fa-solid fa-database"></i>
                 <h3>Database Managment</h3>
             </div>
-            <div class="service-card">
+            <div class="card">
                 <i class="fa-solid fa-mobile-screen-button"></i>
                 <h3>Mobile Development</h3>
             </div>
-            <div class="service-card">
+            <div class="card">
                 <i class="fa-solid fa-server"></i>
                 <h3>Back-end Development</h3>
             </div>
@@ -90,6 +96,193 @@
             </abbr>
         </a>
     </section>
+    <!--Skills-->
+    <section id="skills" class="bg-img">
+        <header>
+            <h2>
+                Skills
+            </h2>
+        </header>
+        <article class="card-container">
+            <div class="card">
+                <i class="fa-brands fa-github"></i>
+                <h3>Github</h3>
+            </div>
+            <div class="card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="card">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-users"></i>
+                <h3>Group Work</h3>
+            </div>
+        </article>
+        <a href="#" class="next-section"><abbr title="Next Section"><i class="fa-solid fa-arrow-down"></i>
+            </abbr>
+        </a>
+    </section>
+    <!-- Projects -->
+    <section id="projects">
+        <div class="bg-img bg-img3">
+            <header>
+                <h2>Projects</h2>
+            </header>
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea nesciunt saepe suscipit! A asperiores
+                    molestiae id quo saepe ut ipsa quod, quos, nemo, sunt quasi. Quia fugiat perspiciatis nostrum
+                    explicabo
+                    iusto? Dolores velit explicabo, mollitia maxime magni repellat necessitatibus! Porro dignissimos
+                    illo
+                    tenetur vel minima quae iure odio voluptatibus quasi assumenda corporis aliquam eligendi labore
+                    explicabo ducimus laudantium accusantium aspernatur id nobis incidunt, architecto ad? Aliquam
+                    adipisci
+                    officia dicta dolorum optio labore ducimus accusamus aut assumenda fuga facilis expedita, illo
+                    delectus
+                    nulla deleniti, cumque necessitatibus. Recusandae mollitia at provident veritatis! Ea omnis id
+                    aspernatur numquam, ipsam perspiciatis assumenda modi provident labore? Voluptatibus, quia. Eum
+                    debitis
+                    nobis mollitia. Minima, nulla perferendis aperiam dicta tempora recusandae. Iusto repellendus ex
+                    fuga
+                    veritatis totam sit harum temporibus, vel explicabo amet reprehenderit assumenda at laudantium! Esse
+                    facere veniam ex nisi praesentium, amet quidem itaque quas earum odit, neque consectetur accusantium
+                    aliquid ullam suscipit nostrum ratione perspiciatis nihil sapiente dolorem provident dignissimos
+                    soluta.
+                    Dolores cum recusandae est aliquam ea amet facere alias voluptates quaerat impedit quas obcaecati,
+                    rem
+                    ex tempora repellendus sed culpa reprehenderit quis eius harum aspernatur magnam consequatur. Ullam,
+                    nobis, numquam dignissimos facere modi hic quod eaque aut delectus, repellendus voluptates mollitia
+                    nihil ipsam?
+                </p>
+            </article>
+        </div>
+        <a href="#" class="next-section"><abbr title="Next Section"><i class="fa-solid fa-arrow-down"></i>
+            </abbr>
+        </a>
+    </section>
+    <!--Testimonials-->
+    <section id="testimonials">
+        <header>
+            <h2>
+                Testimonials
+            </h2>
+        </header>
+        <article class="card-container">
+            <div class="card testimonial-card">
+                <img src="https://media.istockphoto.com/vectors/default-avatar-photo-placeholder-icon-grey-profile-picture-business-vector-id1327592449?b=1&amp;k=20&amp;m=1327592449&amp;s=612x612&amp;w=0&amp;h=5QGgGesGro2IbS1Vcq6haOYY1aEK4Ya8p8CUf2o8ovw="
+                    alt="Avatar">
+                <h3>John Doe</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aliquam debitis dolores totam ea
+                    atque.</p>
+            </div>
+            <div class="card testimonial-card">
+                <img src="https://media.istockphoto.com/vectors/default-avatar-photo-placeholder-icon-grey-profile-picture-business-vector-id1327592449?b=1&amp;k=20&amp;m=1327592449&amp;s=612x612&amp;w=0&amp;h=5QGgGesGro2IbS1Vcq6haOYY1aEK4Ya8p8CUf2o8ovw="
+                    alt="Avatar">
+                <h3>John Doe</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aliquam debitis dolores totam ea
+                    atque.</p>
+            </div>
+            <div class="card testimonial-card">
+                <img src="https://media.istockphoto.com/vectors/default-avatar-photo-placeholder-icon-grey-profile-picture-business-vector-id1327592449?b=1&amp;k=20&amp;m=1327592449&amp;s=612x612&amp;w=0&amp;h=5QGgGesGro2IbS1Vcq6haOYY1aEK4Ya8p8CUf2o8ovw="
+                    alt="Avatar">
+                <h3>John Doe</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aliquam debitis dolores totam ea
+                    atque.</p>
+            </div>
+            <div class="card testimonial-card">
+                <img src="https://media.istockphoto.com/vectors/default-avatar-photo-placeholder-icon-grey-profile-picture-business-vector-id1327592449?b=1&amp;k=20&amp;m=1327592449&amp;s=612x612&amp;w=0&amp;h=5QGgGesGro2IbS1Vcq6haOYY1aEK4Ya8p8CUf2o8ovw="
+                    alt="Avatar">
+                <h3>John Doe</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aliquam debitis dolores totam ea
+                    atque.</p>
+            </div>
+
+        </article>
+        <a href="#" class="next-section"><abbr title="Next Section"><i class="fa-solid fa-arrow-down"></i>
+            </abbr>
+        </a>
+    </section>
+    <section id="contact-me" class="bg-img bg-img4">
+        <header>
+            <h2>
+                Contact Me
+            </h2>
+        </header>
+        <article class="form-container">
+            <form action="" autocomplete="on" method="POST">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="email" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Message</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </article>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-logo-container">
+            <a href="https://www.linkedin.com/in/mahdi-suleiman/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+
+            </a>
+            <a href="https://github.com/Mahdi-Suleiman" target="_blank">
+                <i class="fa-brands fa-github"></i>
+
+            </a>
+            <a href="https://www.pinterest.ca/mahdisuleiman0/" target="_blank">
+                <i class="fa-brands fa-pinterest"></i>
+
+            </a>
+        </div>
+        <div class="contact-info">
+            <div>
+                <i class="fa-solid fa-at"></i>
+                <p>Mahdi.Suleimann@gmail.com</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <p>+962 777685139</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Amman, Jordan</p>
+            </div>
+
+        </div>
+        <hr>
+        <p>&copy; all rights reserved 2021</p>
+        <!-- <a href="#home" class="next-section first-section">
+            <abbr title="Go to Top"><i class="fa-solid fa-angles-up"></i></abbr> -->
+    </footer>
+    <script src="javascript/main.js"></script>
 </body>
 
 </html>
