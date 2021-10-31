@@ -20,7 +20,7 @@
     <!-- Header and Navbar -->
     <header>
         <nav class="navbar">
-            <div class="logo">
+            <div class="logo" onclick="goToHomePage()">
                 <p>M.S</p>
             </div>
             <div class="burger-menu">
@@ -36,7 +36,7 @@
                     <li><a href="#about-me">About Me</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
                     <li><a href="#testimonial">Testimonials</a></li>
                     <li><a href="#contact-me">Contact Me</a></li>
                 </ul>
@@ -117,36 +117,10 @@
                 molestiae!
             </p>
         </div>
-        <a href="#projects" class="next-section"><abbr title="next section"><i
-                    class="fa-solid fa-arrow-down"></i></abbr></a>
-    </section>
-    <!-- <div style="margin-top: 5000px;"></div> -->
-
-    <!-- MY PROJECTS -->
-    <section id="projects">
-        <div class="project-container bg-img bg-img3">
-            <h2>
-                Projects
-            </h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, vel placeat aperiam beatae optio autem
-                in illum ab modi minima dolore commodi, totam sapiente magni voluptatem nesciunt debitis tempora
-                impedit. Similique recusandae alias veniam, ipsa corporis, cum quibusdam quidem distinctio architecto
-                eveniet mollitia perferendis a error culpa saepe assumenda corrupti ducimus, ex facere provident
-                suscipit? Maxime adipisci nobis ipsum, perferendis veniam quam aliquid? Officia ut laborum maiores
-                nesciunt saepe ipsa aliquam sapiente adipisci, dignissimos repellendus quod. Voluptas, ipsum ex iusto
-                quos distinctio fugit praesentium vitae impedit. Ipsum nostrum eaque distinctio veniam laborum
-                architecto eveniet esse! Consectetur optio debitis officia ad, ut iure voluptas, quibusdam delectus amet
-                odit quasi quae aliquid deserunt aliquam at? Ratione sequi neque dolore, vitae dicta accusamus nemo
-                odio, vero ex dolorem excepturi repellat, asperiores numquam nobis? Earum quae beatae voluptate
-                perspiciatis ad accusamus, aut ut impedit sed tempora, quos nemo atque laborum? Aspernatur facere
-                adipisci ea excepturi cupiditate tempore harum, sunt error laboriosam deleniti tempora iure accusamus
-                doloribus dolores, quo laborum molestias culpa distinctio quae ipsa? Cum pariatur saepe provident eaque
-                numquam aspernatur eos, tempora ea? Reiciendis, suscipit facilis eaque laboriosam delectus est omnis
-                mollitia alias iste aliquid exercitationem! Quam, non atque ad possimus exercitationem quisquam!</p>
-        </div>
         <a href="#testimonial" class="next-section"><abbr title="next section"><i
                     class="fa-solid fa-arrow-down"></i></abbr></a>
     </section>
+    <!-- <div style="margin-top: 5000px;"></div> -->
 
     <!-- Testimonials  -->
     <section id="testimonial">
@@ -180,46 +154,6 @@
             </div>
 
         </div>
-        <a href="#contact-me" class="next-section"><abbr title="next section"><i
-                    class="fa-solid fa-arrow-down"></i></abbr></a>
-    </section>
-
-    <!-- FORM -->
-    <section id="contact-me">
-        <h2>Contact me</h2>
-        <div class="form-container">
-            <form action="" autocomplete="on" method="POST">
-                <div class="row">
-                    <div class="col-25">
-                        <label for="fname">Name</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="lname">Email</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text" id="lname" name="email" placeholder="Your Email">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="subject">Message</label>
-                    </div>
-                    <div class="col-75">
-                        <textarea id="subject" name="subject" placeholder="Write something.."
-                            style="height:200px"></textarea>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <input type="submit" value="Submit">
-                </div>
-            </form>
-        </div>
     </section>
 
     <!-- FOOTER -->
@@ -243,6 +177,8 @@
         <a href="#home" class="next-section first-section">
             <abbr title="Go to Top"><i class="fa-solid fa-angles-up"></i></abbr>
     </footer>
+    <script src="./main.js"></script>
+
 </body>
 
 </html>

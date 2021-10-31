@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Mahdi Suleiman" content="Portfolio">
+    <meta name="web development" content="HTML5 CSS3">
+    <!-- <meta name="color-scheme" content="dark light"> -->
+    <meta name="author" content="Mahdi Suleiman">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- <script src="javascript/myapp.js"></script> -->
+    <title>Projects</title>
+</head>
+
+<body>
+    <!-- Header and Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo" onclick="goToHomePage()">
+                <p>M.S</p>
+            </div>
+            <div class="burger-menu">
+                <a href="#" class="toggle-menu">
+                    <span class="burger-bar"></span>
+                    <span class="burger-bar"></span>
+                    <span class="burger-bar"></span>
+                </a>
+            </div>
+
+            <div class="normal-navbar">
+                <ul>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#testimonial">Testimonials</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MY PROJECTS -->
+    <section id="projects">
+        <div class="project-container bg-img bg-img3">
+            <h2>
+                Projects
+            </h2>
+            <div class="testimonial-container">
+                <div class="testimonial-card card">
+                    <img src="./assets/project1.png" alt="Avatar" style="width:100%">
+                    <div class="testcard-container">
+                        <h4><b>Portfolio</b></h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-card card">
+                    <img src="./assets/project2.png" alt="Avatar" style="width:100%">
+                    <div class="testcard-container">
+                        <h4><b>Quiz</b></h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#contact-me" class="next-section"><abbr title="next section"><i
+                    class="fa-solid fa-arrow-down"></i></abbr></a>
+    </section>
+
+    <!-- FORM -->
+    <section id="contact-me">
+        <h2>Contact me</h2>
+        <div class="form-container">
+            <form action="" autocomplete="on" method="POST">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="email" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Message</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-logo-container">
+            <a href="https://www.linkedin.com/in/mahdi-suleiman/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+
+            </a>
+            <a href="https://github.com/Mahdi-Suleiman" target="_blank">
+                <i class="fa-brands fa-github"></i>
+
+            </a>
+            <a href="https://www.pinterest.ca/mahdisuleiman0/" target="_blank">
+                <i class="fa-brands fa-pinterest"></i>
+
+            </a>
+        </div>
+        <hr>
+        <p>&copy; all rights reserved 2021</p>
+        <a href="#home" class="next-section first-section">
+            <abbr title="Go to Top"><i class="fa-solid fa-angles-up"></i></abbr>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+
+</html>
